@@ -28,7 +28,7 @@ public class MeshDrawer : MonoBehaviour
         float z = radius * Mathf.Cos(_r_theta);
 
         var res = new Vector3(x,y,z);
-        Debug.Log(res);
+        //Debug.Log(res);
         return res;
     }
     void DrawSphere()
